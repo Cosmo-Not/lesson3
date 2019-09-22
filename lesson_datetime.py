@@ -13,6 +13,6 @@ dt = datetime.strptime(stroka, "%d/%m/%y %H:%M:%S.%f")
 print(f'Вчера было: {(d - delta).strftime("%d %b %Y")}')
 print(f'Завтра будет: {(d + delta).strftime("%d %b %Y")}')
 print(f'Сегодня: {d.strftime("%d %b %Y")}')
-print(f'Месяц назад было : {(d - delta_month).strftime("%d %b %Y")}')
+print(f'Месяц назад было: {(d - delta_month).strftime("%d %b %Y")}')
 
 print(dt)
